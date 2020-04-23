@@ -1,0 +1,46 @@
+body{
+    font-family: cursive;
+    min-height: 100vh;
+}
+
+.container-image{
+    background-image: url("../image/Love\ sign.jpg");
+    background-size: cover;    
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+}
+
+
+p{
+    color: skyblue;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  h2{
+    color: tomato;
+  }
+.left {
+    left: 0;
+    margin: 20px;
+    padding: 10px;
+    width: 50%;
+    align-items: center;
+  }
+  
+  .right {
+    right: 0;
+    width: 50%;
+    margin: 20px;
+    padding: 10px;
+    align-items: center;
+  }
+.footer{
+    width: 100%;
+    bottom:0;
+    position: fixed;
+   
+}

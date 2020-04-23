@@ -1,0 +1,14 @@
+body{
+    font-family: cursive;
+    min-height: 100vh;
+}
+
+.right{
+    text-align: right;
+}
+.footer{
+    width: 100%;
+    bottom:0;
+    position: fixed;
+   
+}

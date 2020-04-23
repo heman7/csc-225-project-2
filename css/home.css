@@ -1,0 +1,25 @@
+body{
+    font-family: cursive;
+    min-height: 103vh;
+}
+
+.jumbotron-image{
+    background-image: url("../image/Living\ room.jpg");
+    background-size: cover;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.footer{
+    width: 100%;
+    bottom:0;
+    position: fixed;
+   
+}
+@media only screen and (max-width:768px) {
+    .picture-size{
+      width:  100px;
+      height: 100px;
+    }
+}
